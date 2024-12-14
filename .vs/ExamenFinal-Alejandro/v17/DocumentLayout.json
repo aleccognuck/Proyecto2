@@ -1,0 +1,191 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|c:\\users\\aleca\\onedrive - universidad hispanoamericana\\iii cuatrimestre\\programacion ii\\examenfinal-alejandro\\examenfinal-alejandro\\capavista\\usuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|solutionrelative:examenfinal-alejandro\\capavista\\usuarios.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|c:\\users\\aleca\\onedrive - universidad hispanoamericana\\iii cuatrimestre\\programacion ii\\examenfinal-alejandro\\examenfinal-alejandro\\capavista\\usuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|solutionrelative:examenfinal-alejandro\\capavista\\usuarios.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|c:\\users\\aleca\\onedrive - universidad hispanoamericana\\iii cuatrimestre\\programacion ii\\examenfinal-alejandro\\examenfinal-alejandro\\capavista\\equipos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|solutionrelative:examenfinal-alejandro\\capavista\\equipos.aspx.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|c:\\users\\aleca\\onedrive - universidad hispanoamericana\\iii cuatrimestre\\programacion ii\\examenfinal-alejandro\\examenfinal-alejandro\\capavista\\menu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|solutionrelative:examenfinal-alejandro\\capavista\\menu.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|c:\\users\\aleca\\onedrive - universidad hispanoamericana\\iii cuatrimestre\\programacion ii\\examenfinal-alejandro\\examenfinal-alejandro\\capavista\\equipos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}",
+      "RelativeMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|solutionrelative:examenfinal-alejandro\\capavista\\equipos.aspx||{57312C73-6202-49E9-B1E1-40EA1A6DC1F6}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|c:\\users\\aleca\\onedrive - universidad hispanoamericana\\iii cuatrimestre\\programacion ii\\examenfinal-alejandro\\examenfinal-alejandro\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|solutionrelative:examenfinal-alejandro\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|c:\\users\\aleca\\onedrive - universidad hispanoamericana\\iii cuatrimestre\\programacion ii\\examenfinal-alejandro\\examenfinal-alejandro\\css\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|solutionrelative:examenfinal-alejandro\\css\\menu.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|c:\\users\\aleca\\onedrive - universidad hispanoamericana\\iii cuatrimestre\\programacion ii\\examenfinal-alejandro\\examenfinal-alejandro\\capamodelo\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|solutionrelative:examenfinal-alejandro\\capamodelo\\clsusuario.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|c:\\users\\aleca\\onedrive - universidad hispanoamericana\\iii cuatrimestre\\programacion ii\\examenfinal-alejandro\\examenfinal-alejandro\\capamodelo\\clsconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|solutionrelative:examenfinal-alejandro\\capamodelo\\clsconexion.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|c:\\users\\aleca\\onedrive - universidad hispanoamericana\\iii cuatrimestre\\programacion ii\\examenfinal-alejandro\\examenfinal-alejandro\\capamodelo\\clsequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7BB770A4-C363-4880-8F51-B616453294DA}|ExamenFinal-Alejandro\\ExamenFinal-Alejandro.csproj|solutionrelative:examenfinal-alejandro\\capamodelo\\clsequipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 3,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Menu.aspx",
+              "DocumentMoniker": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\CapaVista\\Menu.aspx",
+              "RelativeDocumentMoniker": "ExamenFinal-Alejandro\\CapaVista\\Menu.aspx",
+              "ToolTip": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\CapaVista\\Menu.aspx",
+              "RelativeToolTip": "ExamenFinal-Alejandro\\CapaVista\\Menu.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-13T20:54:47.499Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Equipos.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\CapaVista\\Equipos.aspx.cs",
+              "RelativeDocumentMoniker": "ExamenFinal-Alejandro\\CapaVista\\Equipos.aspx.cs",
+              "ToolTip": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\CapaVista\\Equipos.aspx.cs",
+              "RelativeToolTip": "ExamenFinal-Alejandro\\CapaVista\\Equipos.aspx.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAABHAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T21:35:34.593Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\Web.config",
+              "RelativeDocumentMoniker": "ExamenFinal-Alejandro\\Web.config",
+              "ToolTip": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\Web.config",
+              "RelativeToolTip": "ExamenFinal-Alejandro\\Web.config",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAACFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-12-13T20:30:17.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Usuarios.aspx.cs",
+              "DocumentMoniker": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\CapaVista\\Usuarios.aspx.cs",
+              "RelativeDocumentMoniker": "ExamenFinal-Alejandro\\CapaVista\\Usuarios.aspx.cs",
+              "ToolTip": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\CapaVista\\Usuarios.aspx.cs",
+              "RelativeToolTip": "ExamenFinal-Alejandro\\CapaVista\\Usuarios.aspx.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAgwDcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:39:46.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Equipos.aspx",
+              "DocumentMoniker": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\CapaVista\\Equipos.aspx",
+              "RelativeDocumentMoniker": "ExamenFinal-Alejandro\\CapaVista\\Equipos.aspx",
+              "ToolTip": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\CapaVista\\Equipos.aspx",
+              "RelativeToolTip": "ExamenFinal-Alejandro\\CapaVista\\Equipos.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-13T21:14:30.831Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Usuarios.aspx",
+              "DocumentMoniker": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\CapaVista\\Usuarios.aspx",
+              "RelativeDocumentMoniker": "ExamenFinal-Alejandro\\CapaVista\\Usuarios.aspx",
+              "ToolTip": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\CapaVista\\Usuarios.aspx",
+              "RelativeToolTip": "ExamenFinal-Alejandro\\CapaVista\\Usuarios.aspx",
+              "LogicalView": "7651a703-06e5-11d1-8ebd-00a0c90f26ea",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000195|",
+              "WhenOpened": "2024-12-13T20:34:32.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Clsusuario.cs",
+              "DocumentMoniker": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\CapaModelo\\Clsusuario.cs",
+              "RelativeDocumentMoniker": "ExamenFinal-Alejandro\\CapaModelo\\Clsusuario.cs",
+              "ToolTip": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\CapaModelo\\Clsusuario.cs",
+              "RelativeToolTip": "ExamenFinal-Alejandro\\CapaModelo\\Clsusuario.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAA1wDQAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:10:17.333Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ClsEquipo.cs",
+              "DocumentMoniker": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\CapaModelo\\ClsEquipo.cs",
+              "RelativeDocumentMoniker": "ExamenFinal-Alejandro\\CapaModelo\\ClsEquipo.cs",
+              "ToolTip": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\CapaModelo\\ClsEquipo.cs",
+              "RelativeToolTip": "ExamenFinal-Alejandro\\CapaModelo\\ClsEquipo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:10:53.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ClsConexion.cs",
+              "DocumentMoniker": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\CapaModelo\\ClsConexion.cs",
+              "RelativeDocumentMoniker": "ExamenFinal-Alejandro\\CapaModelo\\ClsConexion.cs",
+              "ToolTip": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\CapaModelo\\ClsConexion.cs",
+              "RelativeToolTip": "ExamenFinal-Alejandro\\CapaModelo\\ClsConexion.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-13T20:33:27.264Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "menu.css",
+              "DocumentMoniker": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\css\\menu.css",
+              "RelativeDocumentMoniker": "ExamenFinal-Alejandro\\css\\menu.css",
+              "ToolTip": "C:\\Users\\aleca\\OneDrive - Universidad Hispanoamericana\\III Cuatrimestre\\Programacion II\\ExamenFinal-Alejandro\\ExamenFinal-Alejandro\\css\\menu.css",
+              "RelativeToolTip": "ExamenFinal-Alejandro\\css\\menu.css",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-13T21:05:10.202Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
