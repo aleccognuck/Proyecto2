@@ -51,13 +51,22 @@ namespace ExamenFinal_Alejandro.CapaVista
         protected global::System.Web.UI.WebControls.TextBox tnombre;
 
         /// <summary>
-        /// Control DropDownList1.
+        /// Control tcorreo.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList DropDownList1;
+        protected global::System.Web.UI.WebControls.TextBox tcorreo;
+
+        /// <summary>
+        /// Control ttelefono.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox ttelefono;
 
         /// <summary>
         /// Control bagregar.
@@ -69,6 +78,15 @@ namespace ExamenFinal_Alejandro.CapaVista
         protected global::System.Web.UI.WebControls.Button bagregar;
 
         /// <summary>
+        /// Control bmodificar.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Button bmodificar;
+
+        /// <summary>
         /// Control bborrar.
         /// </summary>
         /// <remarks>
@@ -76,5 +94,14 @@ namespace ExamenFinal_Alejandro.CapaVista
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
         protected global::System.Web.UI.WebControls.Button bborrar;
+
+        /// <summary>
+        /// Control lblMensaje.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lblMensaje;
     }
 }

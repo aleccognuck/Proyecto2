@@ -70,6 +70,10 @@
     <Content Include="CapaVista\Equipos.aspx" />
     <Content Include="CapaVista\Menu.aspx" />
     <Content Include="CapaVista\Usuarios.aspx" />
+    <Content Include="CapaVista\Reparaciones.aspx" />
+    <Content Include="CapaVista\DetallesReparacion.aspx" />
+    <Content Include="CapaVista\Asignaciones.aspx" />
+    <Content Include="CapaVista\Tecnicos.aspx" />
     <Content Include="css\menu.css" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -97,6 +101,34 @@
     </Compile>
     <Compile Include="CapaVista\Usuarios.aspx.designer.cs">
       <DependentUpon>Usuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\Reparaciones.aspx.cs">
+      <DependentUpon>Reparaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CapaVista\Reparaciones.aspx.designer.cs">
+      <DependentUpon>Reparaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\DetallesReparacion.aspx.cs">
+      <DependentUpon>DetallesReparacion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CapaVista\DetallesReparacion.aspx.designer.cs">
+      <DependentUpon>DetallesReparacion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\Asignaciones.aspx.cs">
+      <DependentUpon>Asignaciones.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CapaVista\Asignaciones.aspx.designer.cs">
+      <DependentUpon>Asignaciones.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="CapaVista\Tecnicos.aspx.cs">
+      <DependentUpon>Tecnicos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="CapaVista\Tecnicos.aspx.designer.cs">
+      <DependentUpon>Tecnicos.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>

@@ -11,7 +11,7 @@ namespace ExamenFinal_Alejandro.CapaVista
 {
 
 
-    public partial class Equipos
+    public partial class Reparaciones
     {
 
         /// <summary>
@@ -33,40 +33,31 @@ namespace ExamenFinal_Alejandro.CapaVista
         protected global::System.Web.UI.WebControls.GridView GridView1;
 
         /// <summary>
-        /// Control tcodigo.
+        /// Control treparacionid.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tcodigo;
+        protected global::System.Web.UI.WebControls.TextBox treparacionid;
 
         /// <summary>
-        /// Control ttipo.
+        /// Control tequipoid.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ttipo;
+        protected global::System.Web.UI.WebControls.TextBox tequipoid;
 
         /// <summary>
-        /// Control tmodelo.
+        /// Control testado.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tmodelo;
-
-        /// <summary>
-        /// Control tusuarioid.
-        /// </summary>
-        /// <remarks>
-        /// Campo generado automáticamente.
-        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
-        /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tusuarioid;
+        protected global::System.Web.UI.WebControls.TextBox testado;
 
         /// <summary>
         /// Control bagregar.

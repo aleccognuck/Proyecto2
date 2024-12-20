@@ -11,7 +11,22 @@ namespace ExamenFinal_Alejandro.CapaVista
     {
         protected void Page_Load(object sender, EventArgs e)
         {
-
+        
         }
+
+        protected void btnUsuarios_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Usuarios.aspx");
+        }
+
+        protected void btnEquipos_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Equipos.aspx");
+        }
+        protected void btnReparaciones_Click(object sender, EventArgs e)
+        {
+            Response.Redirect("Reparaciones.aspx");
+        }
+
     }
 }

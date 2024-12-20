@@ -1,10 +1,10 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Usuarios.aspx.cs" Inherits="ExamenFinal_Alejandro.CapaVista.Usuarios" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="Asignaciones.aspx.cs" Inherits="ExamenFinal_Alejandro.CapaVista.Asignaciones" %>
 
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head runat="server">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-    <title>Gestión de Usuarios</title>
+    <title>Gestión de Asignaciones</title>
     <style>
         /* Estilos generales */
         body {
@@ -107,41 +107,41 @@
         <!-- Menú de navegación -->
         <ul>
             <li><a href="Menu.aspx">Home</a></li>
-            <li><a class="active" href="Usuarios.aspx">Usuarios</a></li>
+            <li><a href="Usuarios.aspx">Usuarios</a></li>
             <li><a href="Equipos.aspx">Equipos</a></li>
             <li><a href="Tecnicos.aspx">Técnicos</a></li>
             <li><a href="Reparaciones.aspx">Reparaciones</a></li>
             <li><a href="DetallesReparacion.aspx">Detalles Reparación</a></li>
-            <li><a href="Asignaciones.aspx">Asignaciones</a></li>
+            <li><a class="active" href="Asignaciones.aspx">Asignaciones</a></li>
         </ul>
 
         <!-- Contenido principal -->
         <div class="container">
-            <h2>CATÁLOGO DE USUARIOS</h2>
+            <h2>CATÁLOGO DE ASIGNACIONES</h2>
 
-            <!-- Tabla para mostrar usuarios -->
+            <!-- Tabla para mostrar asignaciones -->
             <asp:GridView ID="GridView1" runat="server" AutoGenerateColumns="False" OnSelectedIndexChanged="GridView1_SelectedIndexChanged">
                 <Columns>
-                    <asp:BoundField DataField="UsuarioID" HeaderText="ID Usuario" />
-                    <asp:BoundField DataField="Nombre" HeaderText="Nombre" />
-                    <asp:BoundField DataField="CorreoElectronico" HeaderText="Correo Electrónico" />
-                    <asp:BoundField DataField="Telefono" HeaderText="Teléfono" />
+                    <asp:BoundField DataField="AsignacionID" HeaderText="ID Asignación" />
+                    <asp:BoundField DataField="ReparacionID" HeaderText="ID Reparación" />
+                    <asp:BoundField DataField="TecnicoID" HeaderText="ID Técnico" />
+                    <asp:BoundField DataField="FechaAsignacion" HeaderText="Fecha Asignación" />
                     <asp:CommandField ShowSelectButton="True" ButtonType="Button" SelectText="Seleccionar" />
                 </Columns>
             </asp:GridView>
 
-            <!-- Formulario para gestionar usuarios -->
-            <label for="tcodigo">ID Usuario:</label>
-            <asp:TextBox ID="tcodigo" runat="server" Enabled="false"></asp:TextBox>
+            <!-- Formulario para gestionar asignaciones -->
+            <label for="tasignacionid">ID Asignación:</label>
+            <asp:TextBox ID="tasignacionid" runat="server" Enabled="false"></asp:TextBox>
 
-            <label for="tnombre">Nombre:</label>
-            <asp:TextBox ID="tnombre" runat="server" required></asp:TextBox>
+            <label for="treparacionid">ID Reparación:</label>
+            <asp:TextBox ID="treparacionid" runat="server"></asp:TextBox>
 
-            <label for="tcorreo">Correo Electrónico:</label>
-            <asp:TextBox ID="tcorreo" runat="server" required></asp:TextBox>
+            <label for="ttecnicoid">ID Técnico:</label>
+            <asp:TextBox ID="ttecnicoid" runat="server"></asp:TextBox>
 
-            <label for="ttelefono">Teléfono:</label>
-            <asp:TextBox ID="ttelefono" runat="server" required></asp:TextBox>
+            <label for="tfechaasignacion">Fecha Asignación:</label>
+            <asp:TextBox ID="tfechaasignacion" runat="server"></asp:TextBox>
 
             <!-- Botones de acción -->
             <asp:Button ID="bagregar" runat="server" Text="Agregar" CssClass="btn" OnClick="bagregar_Click" />

@@ -1,34 +1,34 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Configuration;
-using System.Data.SqlClient;
+﻿using System.Data.SqlClient;
 using System.Data;
+using System.Web.UI.WebControls;
+using System;
+using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.UI;
-using System.Web.UI.WebControls;
+
 
 namespace ExamenFinal_Alejandro.CapaVista
 {
-    public partial class Usuarios : System.Web.UI.Page
+    public partial class Reparaciones : System.Web.UI.Page
     {
-        // Cadena de conexión a la base de datos
+        
         string connectionString = System.Configuration.ConfigurationManager.ConnectionStrings["conexion"].ConnectionString;
 
         protected void Page_Load(object sender, EventArgs e)
         {
             if (!IsPostBack)
             {
-                CargarUsuarios(); // Cargar usuarios al cargar la página
+                CargarReparaciones(); 
             }
         }
 
-        // Método para cargar los usuarios en el GridView
-        private void CargarUsuarios()
+       
+        private void CargarReparaciones()
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                SqlCommand command = new SqlCommand("ConsultarUsuarios", connection);
+                SqlCommand command = new SqlCommand("ConsultarReparaciones", connection);
                 command.CommandType = CommandType.StoredProcedure;
 
                 try
@@ -43,97 +43,94 @@ namespace ExamenFinal_Alejandro.CapaVista
                 }
                 catch (Exception ex)
                 {
-                    lblMensaje.Text = "Error al cargar usuarios: " + ex.Message;
+                    lblMensaje.Text = "Error al cargar reparaciones: " + ex.Message;
                 }
             }
         }
 
-        // Método para agregar un usuario
+        
         protected void bagregar_Click(object sender, EventArgs e)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                SqlCommand command = new SqlCommand("InsertarUsuario", connection);
+                SqlCommand command = new SqlCommand("InsertarReparacion", connection);
                 command.CommandType = CommandType.StoredProcedure;
 
-                command.Parameters.AddWithValue("@Nombre", tnombre.Text.Trim());
-                command.Parameters.AddWithValue("@CorreoElectronico", tcorreo.Text.Trim());
-                command.Parameters.AddWithValue("@Telefono", ttelefono.Text.Trim());
+                command.Parameters.AddWithValue("@EquipoID", int.Parse(tequipoid.Text.Trim()));
+                command.Parameters.AddWithValue("@Estado", testado.Text.Trim());
 
                 try
                 {
                     connection.Open();
                     command.ExecuteNonQuery();
-                    lblMensaje.Text = "Usuario agregado correctamente.";
-                    CargarUsuarios(); // Refrescar el GridView
+                    lblMensaje.Text = "Reparación agregada correctamente.";
+                    CargarReparaciones();
                 }
                 catch (Exception ex)
                 {
-                    lblMensaje.Text = "Error al agregar usuario: " + ex.Message;
+                    lblMensaje.Text = "Error al agregar reparación: " + ex.Message;
                 }
             }
         }
 
-        // Método para modificar un usuario
+       
         protected void bmodificar_Click(object sender, EventArgs e)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                SqlCommand command = new SqlCommand("ActualizarUsuario", connection);
+                SqlCommand command = new SqlCommand("ActualizarReparacion", connection);
                 command.CommandType = CommandType.StoredProcedure;
 
-                command.Parameters.AddWithValue("@UsuarioID", int.Parse(tcodigo.Text.Trim()));
-                command.Parameters.AddWithValue("@Nombre", tnombre.Text.Trim());
-                command.Parameters.AddWithValue("@CorreoElectronico", tcorreo.Text.Trim());
-                command.Parameters.AddWithValue("@Telefono", ttelefono.Text.Trim());
+                command.Parameters.AddWithValue("@ReparacionID", int.Parse(treparacionid.Text.Trim()));
+                command.Parameters.AddWithValue("@EquipoID", int.Parse(tequipoid.Text.Trim()));
+                command.Parameters.AddWithValue("@Estado", testado.Text.Trim());
 
                 try
                 {
                     connection.Open();
                     command.ExecuteNonQuery();
-                    lblMensaje.Text = "Usuario modificado correctamente.";
-                    CargarUsuarios(); // Refrescar el GridView
+                    lblMensaje.Text = "Reparación modificada correctamente.";
+                    CargarReparaciones();
                 }
                 catch (Exception ex)
                 {
-                    lblMensaje.Text = "Error al modificar usuario: " + ex.Message;
+                    lblMensaje.Text = "Error al modificar reparación: " + ex.Message;
                 }
             }
         }
 
-        // Método para borrar un usuario
+        
         protected void bborrar_Click(object sender, EventArgs e)
         {
             using (SqlConnection connection = new SqlConnection(connectionString))
             {
-                SqlCommand command = new SqlCommand("EliminarUsuario", connection);
+                SqlCommand command = new SqlCommand("EliminarReparacion", connection);
                 command.CommandType = CommandType.StoredProcedure;
 
-                command.Parameters.AddWithValue("@UsuarioID", int.Parse(tcodigo.Text.Trim()));
+                command.Parameters.AddWithValue("@ReparacionID", int.Parse(treparacionid.Text.Trim()));
 
                 try
                 {
                     connection.Open();
                     command.ExecuteNonQuery();
-                    lblMensaje.Text = "Usuario eliminado correctamente.";
-                    CargarUsuarios(); // Refrescar el GridView
+                    lblMensaje.Text = "Reparación eliminada correctamente.";
+                    CargarReparaciones();
                 }
                 catch (Exception ex)
                 {
-                    lblMensaje.Text = "Error al eliminar usuario: " + ex.Message;
+                    lblMensaje.Text = "Error al eliminar reparación: " + ex.Message;
                 }
             }
         }
 
-        // Método para seleccionar un usuario desde el GridView
+        
         protected void GridView1_SelectedIndexChanged(object sender, EventArgs e)
         {
             GridViewRow row = GridView1.SelectedRow;
 
-            tcodigo.Text = row.Cells[0].Text; // ID Usuario
-            tnombre.Text = row.Cells[1].Text; // Nombre
-            tcorreo.Text = row.Cells[2].Text; // Correo Electrónico
-            ttelefono.Text = row.Cells[3].Text; // Teléfono
+            treparacionid.Text = row.Cells[0].Text; 
+            tequipoid.Text = row.Cells[1].Text;    
+            testado.Text = row.Cells[3].Text;     
         }
     }
 }

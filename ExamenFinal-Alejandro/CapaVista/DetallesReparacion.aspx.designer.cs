@@ -11,7 +11,7 @@ namespace ExamenFinal_Alejandro.CapaVista
 {
 
 
-    public partial class Equipos
+    public partial class DetallesReparacion
     {
 
         /// <summary>
@@ -33,40 +33,49 @@ namespace ExamenFinal_Alejandro.CapaVista
         protected global::System.Web.UI.WebControls.GridView GridView1;
 
         /// <summary>
-        /// Control tcodigo.
+        /// Control tdetalleid.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tcodigo;
+        protected global::System.Web.UI.WebControls.TextBox tdetalleid;
 
         /// <summary>
-        /// Control ttipo.
+        /// Control treparacionid.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox ttipo;
+        protected global::System.Web.UI.WebControls.TextBox treparacionid;
 
         /// <summary>
-        /// Control tmodelo.
+        /// Control tdescripcion.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tmodelo;
+        protected global::System.Web.UI.WebControls.TextBox tdescripcion;
 
         /// <summary>
-        /// Control tusuarioid.
+        /// Control tfechainicio.
         /// </summary>
         /// <remarks>
         /// Campo generado automáticamente.
         /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.TextBox tusuarioid;
+        protected global::System.Web.UI.WebControls.TextBox tfechainicio;
+
+        /// <summary>
+        /// Control tfechafin.
+        /// </summary>
+        /// <remarks>
+        /// Campo generado automáticamente.
+        /// Para modificarlo, mueva la declaración del campo del archivo del diseñador al archivo de código subyacente.
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.TextBox tfechafin;
 
         /// <summary>
         /// Control bagregar.
